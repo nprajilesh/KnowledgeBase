@@ -1,0 +1,2 @@
+serviceClass: com.kbase.app.client.GreetingService
+path: FBB992D8942BB46636C30FA6ED24FCD9.gwt.rpc

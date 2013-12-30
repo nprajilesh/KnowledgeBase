@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+              http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+         version="2.5"
+         xmlns="http://java.sun.com/xml/ns/javaee">
+
+  <!-- Servlets -->
+  <servlet>
+    <servlet-name>SignupUty</servlet-name>
+    <servlet-class>com.kbase.app.server.SignupUty</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+    <servlet-name>SignupUty</servlet-name>
+    <url-pattern>/signup_uty</url-pattern>
+  </servlet-mapping>
+ 
+  <servlet>
+    <servlet-name>Addcoursestudent</servlet-name>
+    <servlet-class>com.kbase.app.server.AddCourseStudent</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+    <servlet-name>Addcoursestudent</servlet-name>
+    <url-pattern>/enrol_course</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>Add_Video</servlet-name>
+    <servlet-class>com.kbase.app.server.AddVideo</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+    <servlet-name>Add_Video</servlet-name>
+    <url-pattern>/addvideo</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>Add_Presentation</servlet-name>
+    <servlet-class>com.kbase.app.server.AddPresentation</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+    <servlet-name>Add_Presentation</servlet-name>
+    <url-pattern>/addpresentation</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>ApproveTchr</servlet-name>
+    <servlet-class>com.kbase.app.server.ApproveTchr</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+    <servlet-name>ApproveTchr</servlet-name>
+    <url-pattern>/approvetchr</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>ApproveStud</servlet-name>
+    <servlet-class>com.kbase.app.server.ApproveStudent</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+    <servlet-name>ApproveStud</servlet-name>
+    <url-pattern>/approvestud</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>TchrCourse</servlet-name>
+    <servlet-class>com.kbase.app.server.AddTeachCourse</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+    <servlet-name>TchrCourse</servlet-name>
+    <url-pattern>/teach_course</url-pattern>
+  </servlet-mapping>
+  
+  
+  <servlet>
+    <servlet-name>LoginTchr</servlet-name>
+    <servlet-class>com.kbase.app.server.TeacherLogin</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+    <servlet-name>LoginTchr</servlet-name>
+    <url-pattern>/login_tchr</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>LoginUty</servlet-name>
+    <servlet-class>com.kbase.app.server.Login_uty</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+    <servlet-name>LoginUty</servlet-name>
+    <url-pattern>/login_uty</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>Updatedept</servlet-name>
+    <servlet-class>com.kbase.app.server.UpdateDepartment</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+    <servlet-name>Updatedept</servlet-name>
+    <url-pattern>/update_dept</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>Updatedeptstud</servlet-name>
+    <servlet-class>com.kbase.app.server.Update_department_student</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+    <servlet-name>Updatedeptstud</servlet-name>
+    <url-pattern>/update_dept_stud</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>DeleteDept</servlet-name>
+    <servlet-class>com.kbase.app.server.DeleteDepartment</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+    <servlet-name>DeleteDept</servlet-name>
+    <url-pattern>/del_dept</url-pattern>
+  </servlet-mapping>
+ 
+   <servlet>
+    <servlet-name>AddCourse</servlet-name>
+    <servlet-class>com.kbase.app.server.AddCourse</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+    <servlet-name>AddCourse</servlet-name>
+    <url-pattern>/add_course</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>RemCourse</servlet-name>
+    <servlet-class>com.kbase.app.server.DeleteCourse</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+    <servlet-name>RemCourse</servlet-name>
+    <url-pattern>/del_course</url-pattern>
+  </servlet-mapping>
+ 
+  <servlet>
+    <servlet-name>Loginstud</servlet-name>
+    <servlet-class>com.kbase.app.server.Login_student</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+    <servlet-name>Loginstud</servlet-name>
+    <url-pattern>/login_stud</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>Signup_student</servlet-name>
+    <servlet-class>com.kbase.app.server.Signup_student</servlet-class>
+  </servlet>
+  
+ 
+  <servlet-mapping>
+    <servlet-name>Signup_student</servlet-name>
+    <url-pattern>/signup_student</url-pattern>
+  </servlet-mapping>
+  
+ <servlet>
+    <servlet-name>Signup_teacher</servlet-name>
+    <servlet-class>com.kbase.app.server.Signup_teacher</servlet-class>
+  </servlet>
+  
+ 
+  <servlet-mapping>
+    <servlet-name>Signup_teacher</servlet-name>
+    <url-pattern>/signup_teacher</url-pattern>
+  </servlet-mapping>
+  
+  
+  
+  
+  <servlet>
+    <servlet-name>add_dept</servlet-name>
+    <servlet-class>com.kbase.app.server.AddDept</servlet-class>
+  </servlet>
+  
+ 
+  <servlet-mapping>
+    <servlet-name>add_dept</servlet-name>
+    <url-pattern>/add_dept</url-pattern>
+  </servlet-mapping>
+  
+  
+  
+  
+  <!-- Default page to serve -->
+  <welcome-file-list>
+    <welcome-file>kbase.jsp</welcome-file>
+  </welcome-file-list>
+
+</web-app>
